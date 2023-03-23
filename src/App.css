@@ -1,0 +1,41 @@
+
+*{
+  background-color: whitesmoke;
+}
+.mainForm{
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+
+.child{
+/* background-color: skyblue; */
+border-radius: 10px;
+width: 32rem;
+
+}
+
+.navbar_style{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 8px;
+}
+
+.input_Part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.navbar_style a{
+  text-decoration: none;
+  color: black;
+
+ 
+}
+
+.active{
+  color: blue;
+}
